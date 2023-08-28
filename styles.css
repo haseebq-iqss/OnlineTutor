@@ -1,0 +1,309 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+highlightPrimary {
+  color: #7F56DA;
+}
+
+highlightSecondary {
+  color: #FF6A06;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 2.5vw;
+}
+nav .logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10%;
+  gap: 10px;
+}
+nav .logo img {
+  width: 25%;
+  aspect-ratio: 1.5;
+}
+nav .navItems {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: space-evenly;
+  color: #5b5b5b;
+}
+nav .navItems h5:hover {
+  filter: contrast(2);
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+nav .navItems h5:not(:hover) {
+  filter: contrast(1);
+  transform: scale(1);
+  transition: all 0.3s;
+}
+nav .navBtns {
+  width: 20%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+nav .navBtns a {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+nav .navBtns a:hover {
+  filter: contrast(2);
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+nav .navBtns a:not(:hover) {
+  filter: contrast(1);
+  transform: scale(1);
+  transition: all 0.3s;
+}
+nav .navBtns .contactUsBtn {
+  padding: 7.5px 25px;
+  color: #f4f3f6;
+  background-color: #7F56DA;
+  border-radius: 25px;
+}
+
+.section-1 {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 25px;
+  border: 5px solid rgb(209, 204, 204);
+  border-radius: 50px;
+  padding: 25px;
+}
+.section-1 h1 {
+  width: 75%;
+  font-size: 3.5rem;
+  font-family: "Lora";
+}
+.section-1 h6 {
+  font-size: 1rem;
+  color: #5b5b5b;
+}
+.section-1 .teacher1 {
+  position: absolute;
+  bottom: 75px;
+  left: 175px;
+  width: 175px;
+  aspect-ratio: 0.7;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid white;
+}
+.section-1 .teacher2 {
+  position: absolute;
+  bottom: 75px;
+  right: 175px;
+  width: 175px;
+  aspect-ratio: 0.7;
+  border-radius: 100px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 3px solid white;
+}
+.section-1 .btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  top: 50px;
+  background-color: white;
+}
+.section-1 .btns h4 {
+  padding: 7.5px 25px;
+  color: #f4f3f6;
+  background-color: #7F56DA;
+  border-radius: 25px;
+  padding: 15px 75px;
+}
+.section-1 .btns h4:hover {
+  filter: contrast(2);
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+.section-1 .btns h4:not(:hover) {
+  filter: contrast(1);
+  transform: scale(1);
+  transition: all 0.3s;
+}
+.section-1 .btns .jai {
+  background-color: #FF6A06;
+}
+
+.icons {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.icons .hs img {
+  width: 125px;
+  aspect-ratio: 3.5;
+}
+.icons .gl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.icons .gl img {
+  width: 50px;
+  aspect-ratio: 1;
+}
+.icons .gl h4 {
+  font-size: 2rem;
+  color: #5b5b5b;
+}
+.icons .lm img {
+  width: 125px;
+  aspect-ratio: 3.5;
+}
+.icons .lc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  align-items: center;
+}
+.icons .lc img {
+  width: 45px;
+  aspect-ratio: 1;
+}
+.icons .lc h4 {
+  font-size: 2rem;
+  color: #5b5b5b;
+}
+.icons .ahrefs h4 {
+  font-family: "Lora";
+  font-size: 2.5rem;
+  color: #5b5b5b;
+}
+
+.section-2 {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.section-2 .header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-2 .header h1 {
+  font-size: 3rem;
+}
+.section-2 .header a {
+  font-weight: 700;
+  color: #5b5b5b;
+}
+.section-2 h4 {
+  font-size: 1rem;
+  color: #5b5b5b;
+  margin-bottom: 50px;
+}
+.section-2 .cardContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.section-2 .cardContainer .card {
+  width: 32%;
+  aspect-ratio: 0.9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+  background-size: cover;
+  background-position: bottom center;
+  border-radius: 45px;
+  border: 5px solid rgb(209, 204, 204);
+  border-top: none;
+  border-left: none;
+}
+.section-2 .cardContainer .card .details {
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 15px;
+}
+.section-2 .cardContainer .card .details p {
+  font-size: 0.75rem;
+}
+.section-2 .cardContainer .card .details h3 {
+  font-family: "Lora";
+  font-size: 1.5rem;
+}
+.section-2 .cardContainer .card .details hr {
+  width: 100%;
+}
+.section-2 .cardContainer .card .details .dev {
+  padding: 10px;
+}
+.section-2 .cardContainer .card:hover {
+  filter: contrast(1);
+  border-radius: 50px;
+  border: 10px solid rgb(209, 204, 204);
+  border-top: none;
+  border-left: none;
+  transition: all 0.4s;
+}
+.section-2 .cardContainer .card:not(:hover) {
+  border-radius: 45px;
+  border: 5px solid rgb(209, 204, 204);
+  border-top: none;
+  border-left: none;
+  transition: all 0.3s;
+}/*# sourceMappingURL=styles.css.map */
