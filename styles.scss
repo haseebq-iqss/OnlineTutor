@@ -23,6 +23,12 @@ $error : rgb(240, 18, 18);
     font-family: "Poppins";
 }
 
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+
 @mixin Flex() {
     display: flex;
     justify-content: space-between;
@@ -389,12 +395,12 @@ nav {
                 align-items: center;
                 width: 175px;
                 aspect-ratio: 1;
-                border: 2px solid $lightbg;
-                border-radius: 15px;
+                border: 3px solid silver;
+                border-radius: 10px;
                 gap: 15px;
 
                 img {
-                    width: 100px;
+                    width: 75px;
                     border-radius: 100px;
                     aspect-ratio: 1;
                     object-fit: cover;
@@ -453,7 +459,7 @@ nav {
 .section-4 {
     @include Flex();
     flex-direction: column;
-    gap:25px;
+    gap: 25px;
 
     h1 {
         font-size: 3rem;
@@ -468,7 +474,7 @@ nav {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap:25px;
+        gap: 25px;
         margin-top: 50px;
 
         .test {
@@ -477,8 +483,8 @@ nav {
             flex-direction: column;
             align-items: flex-start;
             justify-content: center;
-            gap:30px;
-           box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            gap: 30px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             border-radius: 15px;
             // aspect-ratio: 1;
             padding: 25px;
@@ -487,7 +493,7 @@ nav {
                 @include Flex();
                 flex-direction: row;
                 justify-content: center;
-                gap:10px;
+                gap: 10px;
 
                 img {
                     width: 30px;
@@ -495,6 +501,78 @@ nav {
                     border-radius: 100px;
                     object-fit: cover;
                 }
+            }
+        }
+    }
+
+    .tabs {
+        width: 80%;
+        @include Flex();
+        flex-wrap: wrap;
+        margin-top: 100px;
+
+        .tab {
+            text-align: center;
+            padding: 25px 50px;
+            border: 2px solid $background;
+            background-color: $secondary;
+            color: white;
+            border-radius: 15px;
+
+            h4 {
+                color: $lightbg;
+            }
+        }
+    }
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $info;
+
+    .part1 {
+        width: 80%;
+        padding: 25px;
+        @include Flex();
+        align-items: flex-start;
+        justify-content: space-evenly;
+
+        .section1 {
+            .logo {
+                @include Flex();
+                width: 25%;
+                gap: 10px;
+
+                img {
+                    width: 50%;
+                    aspect-ratio: 1.5;
+                }
+            }
+        }
+
+        & * h4 {
+            font-size: 0.75rem;
+            color: $placeholder;
+        }
+    }
+
+    .part2 {
+        width: 90%;
+        @include Flex();
+        justify-content: space-between;
+        padding: 25px 10px;
+        
+        .socialIcons {            
+            @include Flex();
+            justify-content: center;
+            gap: 25px;
+            img {
+                width: 20px;
+                aspect-ratio: 1;
             }
         }
     }
