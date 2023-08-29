@@ -525,4 +525,479 @@ footer .part2 .socialIcons {
 footer .part2 .socialIcons img {
   width: 20px;
   aspect-ratio: 1;
+}
+
+@media screen and (orientation: portrait) {
+  body {
+    gap: 150px;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1vw;
+    gap: 25px;
+    margin-top: 15px;
+  }
+  nav .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    gap: 0px;
+  }
+  nav .logo img {
+    width: 25%;
+    aspect-ratio: 1.5;
+  }
+  nav .navItems {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #5b5b5b;
+  }
+  nav .navBtns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  nav .navBtns .contactUsBtn {
+    padding: 7.5px 25px;
+    color: #f4f3f6;
+    background-color: #7F56DA;
+    border-radius: 25px;
+  }
+  .section-1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 25px;
+    border: 5px solid rgb(209, 204, 204);
+    border-radius: 25px;
+    padding: 25px;
+  }
+  .section-1 h1 {
+    width: 90%;
+    font-size: 2.5rem;
+    font-family: "Lora";
+  }
+  .section-1 h6 {
+    font-size: 1rem;
+    color: #5b5b5b;
+  }
+  .section-1 .teacher1 {
+    display: none;
+  }
+  .section-1 .teacher2 {
+    display: none;
+  }
+  .section-1 .btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    top: 55px;
+    background-color: white;
+  }
+  .section-1 .btns h4 {
+    padding: 7.5px 25px;
+    color: #f4f3f6;
+    background-color: #7F56DA;
+    border-radius: 25px;
+    border-radius: 10px;
+    padding: 10px 25px;
+  }
+  .section-1 .btns .jai {
+    background-color: #FF6A06;
+  }
+  .icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 50px;
+  }
+  .icons .hs img {
+    width: 125px;
+    aspect-ratio: 3.5;
+  }
+  .icons .gl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+  }
+  .icons .gl img {
+    width: 50px;
+    aspect-ratio: 1;
+  }
+  .icons .gl h4 {
+    font-size: 2rem;
+    color: #5b5b5b;
+  }
+  .icons .lm img {
+    width: 125px;
+    aspect-ratio: 3.5;
+  }
+  .icons .lc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    align-items: center;
+  }
+  .icons .lc img {
+    width: 45px;
+    aspect-ratio: 1;
+  }
+  .icons .lc h4 {
+    font-size: 2rem;
+    color: #5b5b5b;
+  }
+  .icons .ahrefs h4 {
+    font-family: "Lora";
+    font-size: 2.5rem;
+    color: #5b5b5b;
+  }
+  .section-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  .section-2 .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  .section-2 .header h1 {
+    font-size: 2.5rem;
+  }
+  .section-2 .header a {
+    font-weight: 700;
+    color: #5b5b5b;
+  }
+  .section-2 h4 {
+    font-size: 0.75rem;
+    text-align: center;
+    width: 50%;
+    color: #5b5b5b;
+    margin-bottom: 50px;
+  }
+  .section-2 .cardContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    gap: 50px;
+    padding: 15px;
+  }
+  .section-2 .cardContainer .card {
+    width: 100%;
+    aspect-ratio: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-size: cover;
+    background-position: bottom center;
+    border-radius: 45px;
+    border: 5px solid rgb(209, 204, 204);
+    border-top: none;
+    border-left: none;
+  }
+  .section-2 .cardContainer .card .details {
+    width: 100%;
+    padding: 15px;
+    background-color: white;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .section-2 .cardContainer .card .details p {
+    font-size: 0.75rem;
+  }
+  .section-2 .cardContainer .card .details h3 {
+    font-family: "Lora";
+    font-size: 1.5rem;
+  }
+  .section-2 .cardContainer .card .details hr {
+    width: 100%;
+  }
+  .section-2 .cardContainer .card .details .dev {
+    padding: 10px;
+  }
+  .section-2 .cardContainer .card:hover {
+    filter: contrast(1);
+    border-radius: 50px;
+    border: 10px solid rgb(209, 204, 204);
+    border-top: none;
+    border-left: none;
+    transition: all 0.4s;
+  }
+  .section-2 .cardContainer .card:not(:hover) {
+    border-radius: 45px;
+    border: 5px solid rgb(209, 204, 204);
+    border-top: none;
+    border-left: none;
+    transition: all 0.3s;
+  }
+  .section-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 200px;
+  }
+  .section-3 .part1 h1 {
+    font-size: 2.5rem;
+    text-align: start;
+  }
+  .section-3 .part1 h5 {
+    font-size: 1rem;
+    color: #5b5b5b;
+    text-align: center;
+  }
+  .section-3 .part1 .coursesContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 10px;
+  }
+  .section-3 .part1 .coursesContainer .courseCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 175px;
+    aspect-ratio: 1;
+    border: 3px solid silver;
+    border-radius: 10px;
+    gap: 15px;
+  }
+  .section-3 .part1 .coursesContainer .courseCard img {
+    width: 75px;
+    border-radius: 100px;
+    aspect-ratio: 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section-3 .part1 .coursesContainer .courseCard h4 {
+    font-size: 0.75rem;
+  }
+  .section-3 .part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(250, 250, 250);
+  }
+  .section-3 .part2 > div {
+    width: 100%;
+    padding: 15px;
+  }
+  .section-3 .part2 .leftSide {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+  }
+  .section-3 .part2 .leftSide img {
+    width: 300px;
+    aspect-ratio: 0.75;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section-3 .part2 .rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+  }
+  .section-3 .part2 .rightSide h3 {
+    font-family: "Lora";
+    font-size: 2.5rem;
+  }
+  .section-3 .part2 .rightSide .tags {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+  }
+  .section-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  .section-4 h1 {
+    font-size: 3rem;
+  }
+  .section-4 h4 {
+    color: #5b5b5b;
+  }
+  .section-4 .testContainer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+  }
+  .section-4 .testContainer .test {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+    padding: 25px;
+  }
+  .section-4 .testContainer .test .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-4 .testContainer .test .head img {
+    width: 30px;
+    aspect-ratio: 1;
+    border-radius: 100px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .section-4 .tabs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 25px;
+  }
+  .section-4 .tabs .tab {
+    text-align: center;
+    padding: 25px 50px;
+    border: 2px solid #f4f3f6;
+    background-color: #FF6A06;
+    color: white;
+    border-radius: 15px;
+  }
+  .section-4 .tabs .tab h4 {
+    color: rgb(209, 204, 204);
+  }
+  footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #5dbceb;
+  }
+  footer .part1 {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 25px;
+  }
+  footer .part1 .section1 .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    gap: 10px;
+  }
+  footer .part1 .section1 .logo img {
+    width: 50%;
+    aspect-ratio: 1.5;
+  }
+  footer .part1 * h4 {
+    font-size: 0.75rem;
+    color: #5b5b5b;
+  }
+  footer .part2 {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 10px;
+  }
+  footer .part2 .socialIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+  }
+  footer .part2 .socialIcons img {
+    width: 20px;
+    aspect-ratio: 1;
+  }
 }/*# sourceMappingURL=styles.css.map */
