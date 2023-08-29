@@ -4,7 +4,7 @@
 // COLOR SCHEME
 $primary : #7F56DA;
 $secondary : #FF6A06;
-$accent : #e9f32e;
+$accent : #ebf43e;
 $text : #141313;
 $placeholder : #5b5b5b;
 $background : #f4f3f6;
@@ -350,6 +350,152 @@ nav {
                 transition: all 0.3s;
             }
 
+        }
+    }
+}
+
+.section-3 {
+    width: 85%;
+    @include Flex();
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+    .part1 {
+        text-align: center;
+
+        h1 {
+            font-size: 3rem;
+        }
+
+        h5 {
+            font-size: 1.25rem;
+            color: $placeholder;
+        }
+
+        .coursesContainer {
+            @include Flex();
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 100px;
+            gap: 25px;
+
+            .courseCard {
+                @include Flex();
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 175px;
+                aspect-ratio: 1;
+                border: 2px solid $lightbg;
+                border-radius: 15px;
+                gap: 15px;
+
+                img {
+                    width: 100px;
+                    border-radius: 100px;
+                    aspect-ratio: 1;
+                    object-fit: cover;
+                }
+
+                h4 {
+                    font-size: 0.75rem;
+                }
+            }
+        }
+    }
+
+    .part2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(250, 250, 250);
+
+        &>div {
+            width: 50%;
+            padding: 15px;
+        }
+
+        .leftSide {
+            @include Flex();
+            justify-content: center;
+
+            img {
+                width: 300px;
+                aspect-ratio: 0.75;
+                object-fit: cover;
+            }
+        }
+
+        .rightSide {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 50px;
+
+            h3 {
+                font-family: "Lora";
+                font-size: 2.5rem;
+            }
+
+            .tags {
+                @include Flex();
+                gap: 25px;
+            }
+        }
+    }
+}
+
+.section-4 {
+    @include Flex();
+    flex-direction: column;
+    gap:25px;
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        color: $placeholder;
+    }
+
+    .testContainer {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap:25px;
+        margin-top: 50px;
+
+        .test {
+            width: 400px;
+            @include Flex();
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            gap:30px;
+           box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            border-radius: 15px;
+            // aspect-ratio: 1;
+            padding: 25px;
+
+            .head {
+                @include Flex();
+                flex-direction: row;
+                justify-content: center;
+                gap:10px;
+
+                img {
+                    width: 30px;
+                    aspect-ratio: 1;
+                    border-radius: 100px;
+                    object-fit: cover;
+                }
+            }
         }
     }
 }
